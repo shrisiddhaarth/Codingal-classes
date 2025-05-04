@@ -1,0 +1,20 @@
+
+div{
+  font-size: 30px;
+}
+
+#blue-color{
+
+    color:white;
+    background-color:Blue;
+}
+
+.yellow-color{
+
+    color:purple;
+    background-color:yellow;
+}
+
+/* Inline CSS */
+
+
