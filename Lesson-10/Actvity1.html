@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<style>
+    div{
+        font-family: sans-serif;
+    }
+
+    /* attribute selector */
+    input[type="password"]{
+        border: 3px solid red;
+
+    }
+
+    input[type="text"]{
+
+        border: 3px solid green;
+
+    }
+
+    /* child selector */
+    ul >li{
+        color:red;
+    }
+    h1 > h2{
+        color: blue;
+    }
+    /* sibling protector */
+
+    h1 + h3{
+        color: blue;
+    }
+</style>
+<body>
+    <center>
+        <h1>Advance selector</h1>
+        <h3>Psuedo class and elements</h3>
+        <hr>
+
+        <h2>Attribute selector</h2>
+        Name: <input type="text" id="name"><br><br>
+        Password: <input type="password"><br><br>
+        <hr>
+
+        <h2>Child selector</h2>
+        <h4>Unordered list</h4>
+        <ul>
+            <li>items</li>
+            <li>items</li>
+            <li>items</li>
+
+
+
+        </ul>
+        <h4>Ordered list</h4>
+        <ol>
+            <li>items</li>
+            <li>items</li>
+            <li>items</li>
+        </ol>
+    </center>
+</body>
+
+</html>
